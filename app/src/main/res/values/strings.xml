@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Gatos épicos</string>
+    <string name="action_izquierda">Izquierda</string>
+    <string name="action_opcions">Busqueda</string>
+    <string name="action_derecha">Derecha</string>
+    <string name="action_perfil">Perfil</string>
+    <string name="action_silenciar">silenciar</string>
+</resources>

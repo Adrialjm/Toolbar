@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/action_derecha"
+        android:title="@string/action_derecha"
+        android:icon="@drawable/icone_fleche_gauche_noir"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|withText" />
+
+    <item android:id="@+id/action_izquierda"
+        android:title="@string/action_izquierda"
+        android:icon="@drawable/icone_fleche_gauche_noir_izq"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/action_perfil"
+        android:title="@string/action_perfil"
+        android:icon="@drawable/_person_90382"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/action_buscar"
+        android:title="@string/action_opcions"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_silenciar"
+        android:title="@string/action_silenciar"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>
