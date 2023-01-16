@@ -54,6 +54,9 @@
         <activity
             android:name=".Rickroll"
             android:exported="false"></activity>
+        <activity
+            android:name=".Amogus"
+            android:exported="false"></activity>
     </application>
 
 </manifest>

@@ -59,6 +59,10 @@ public class Busqueda extends AppCompatActivity {
                     mediaPlayer = MediaPlayer.create(Busqueda.this, R.raw.mikonword);
                     mediaPlayer.start();
                 }
+                else if (textobuscado.equalsIgnoreCase("Amogus")) {
+                    Intent intent = new Intent (Busqueda.this, Amogus.class);
+                    startActivity(intent);
+                }
                 else {
                     mediaPlayer = MediaPlayer.create(Busqueda.this, R.raw.pekoractm);
                     mediaPlayer.start();}
